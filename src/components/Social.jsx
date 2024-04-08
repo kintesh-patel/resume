@@ -2,13 +2,16 @@ import React from "react";
 
 const SocialShare = [
   {
-    iconName: "fa fa-facebook",
-    link: "https://m.facebook.com/nirmal7073?wtsid=rdr_0hqKTJfr0ObveJC8P",
+    iconName: "fa fa-linkedin",
+    link: "https://www.linkedin.com/in/patel-kintesh/"
   },
-  { iconName: "fa fa-linkedin", link: "https://www.linkedin.com/in/nirmal-patel-04b25b44" },
+  {
+    iconName: "fa fa-facebook",
+    link: "https://www.facebook.com/kp.kintesh/",
+  },
   {
     iconName: "fa fa-instagram",
-    link: "https://instagram.com/fitt_nimu?igshid=MzNlNGNkZWQ4Mg==",
+    link: "https://www.instagram.com/kintesh__patel/",
   }
 
 ];
