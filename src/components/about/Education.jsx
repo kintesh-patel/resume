@@ -2,24 +2,22 @@ import React from "react";
 
 const experienceMain = [
   {
-    year: "Management",
-    position: " Time Management and Organization",
+    year: "Communication",
+    position: "Communication and Collaboration",
     compnayName: "Goldenmace IT Solutions",
-    details: `Ability to manage multiple projects and meet deadlines.
-    Strong organizational skills to keep design assets, files, and project documentation in order.
-    Attention to detail to ensure accuracy and consistency in design deliverables.`,
+    details: `Strong communication skills to understand client requirements and translate them into web applications. Ability to collaborate effectively with other team members, such as developers and project managers. Additionally, adept at handling client support tickets regarding various issues, ensuring timely resolution and client satisfaction.`,
   },
   {
     year: "Learn",
     position: " Continuous Learning",
     compnayName: "Goldenmace IT Solutions",
-    details: `Eagerness to stay updated with the latest web design trends, technologies, and tools.Willingness to learn new skills and adapt to evolving design practices`,
+    details: `Eagerness to stay updated with the latest backend development trends, technologies, and tools.Willingness to learn new skills and adapt to evolving backend practices.`,
   },
   {
     year: "Work",
     position: "Portfolio",
     compnayName: "Goldenmace IT Solutions",
-    details: `I have worked on more than 40 projects, including several crash projects. Demonstrated ability to create visually appealing and user-friendly websites.Responsive and mobile-friendly design work .Evidence of attention to detail in design implementation.`,
+    details: `I have contributed to over 40 projects, including various critical assignments, showcasing my ability to handle high-pressure situations effectively. Demonstrated proficiency in building robust and efficient backend systems. Evidence of meticulous attention to detail in backend implementation, ensuring reliability and optimal performance across various platforms.`,
   },
 ];
 

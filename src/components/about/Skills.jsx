@@ -1,22 +1,22 @@
 import React from "react";
 import heroImg1 from "../../assets/img/hero/html-5.png";
 import heroImg2 from "../../assets/img/hero/css-3.png";
-import heroImg3 from "../../assets/img/hero/sass.png";
+import heroImg3 from "../../assets/img/hero/php.png";
 import heroImg4 from "../../assets/img/hero/bootstrap.png";
 import heroImg5 from "../../assets/img/hero/jQuery.png";
 import heroImg6 from "../../assets/img/hero/js.png";
 import heroImg7 from "../../assets/img/hero/wordpress.png";
-import heroImg8 from "../../assets/img/hero/photoshop-express.png";
+import heroImg8 from "../../assets/img/hero/laravel.png";
 
 const skillsContent = [
   { skillClass: "p89", skillPercent: "89", skillName: "HTML", skillimg: heroImg1 },
-  { skillClass: "p92", skillPercent: "92", skillName: "CSS", skillimg: heroImg2 },
-  { skillClass: "p80", skillPercent: "80", skillName: "SCSS", skillimg: heroImg3 },
-  { skillClass: "p70", skillPercent: "70", skillName: "bootstrap", skillimg: heroImg4 },
-  { skillClass: "p65", skillPercent: "65", skillName: "JQUERY", skillimg: heroImg5 },
-  { skillClass: "p58", skillPercent: "58", skillName: "JAVASCRIPT", skillimg: heroImg6 },
-  { skillClass: "p70", skillPercent: "70", skillName: "WordPress", skillimg: heroImg7 },
-  { skillClass: "p45", skillPercent: "45", skillName: "Photoshop", skillimg: heroImg8 },
+  { skillClass: "p50", skillPercent: "50", skillName: "CSS", skillimg: heroImg2 },
+  { skillClass: "p95", skillPercent: "95", skillName: "WordPress", skillimg: heroImg7 },
+  { skillClass: "p95", skillPercent: "95", skillName: "PHP", skillimg: heroImg3 },
+  { skillClass: "p50", skillPercent: "50", skillName: "laravel", skillimg: heroImg8 },
+  { skillClass: "p50", skillPercent: "50", skillName: "bootstrap", skillimg: heroImg4 },
+  { skillClass: "p85", skillPercent: "80", skillName: "JAVASCRIPT", skillimg: heroImg6 },
+  { skillClass: "p85", skillPercent: "80", skillName: "JQUERY", skillimg: heroImg5 },
 ];
 
 const Skills = () => {

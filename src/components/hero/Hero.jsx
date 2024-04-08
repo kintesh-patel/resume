@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImg from "../../assets/img/hero/n.png";
+import heroImg from "../../assets/img/hero/kintesh-patel.jpg";
 import heroImgMobile from "../../assets/img/hero/img-mobile.png";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
@@ -8,9 +8,9 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "nirmal patel",
+  heroTitleName: "Kintesh Patel",
   heroDesignation: "web developer",
-  heroDescriptions: `I am a skilled web developer with 5 years of experience, specializing in crafting responsive and user-friendly websites. With a keen eye for aesthetics and a deep understanding of design principles, I possess the expertise to create visually appealing and engaging web experiences.`,
+  heroDescriptions: `I am a skilled backend developer proficient in PHP, WordPress, and Laravel with 4+ years of hands-on experience. Specializing in crafting robust and efficient backend systems. Skilled in creating custom solutions tailored to client needs`,
   heroBtn: "more about me",
 };
 

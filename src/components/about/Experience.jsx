@@ -3,22 +3,22 @@ import React from "react";
 const experienceContent = [
   {
     year: "Web",
-    position: " Web Designer",
+    position: " Web Development",
     compnayName: "Goldenmace IT Solutions",
-    details: `Developed and maintained responsive and user-friendly web applications using HTML, CSS, and JavaScript. Collaborated with UI/UX designers and backend developers to ensure seamless integration of frontend and backend systems.`,
+    details: `Proficiently engineered and maintained robust backend solutions utilizing WordPress and PHP. Collaborated closely with backend development teams to ensure reliable integration and optimal performance of web applications.`,
   },
   {
     year: "Skill",
-    position: " Design Skills",
+    position: "Skills",
     compnayName: "Goldenmace IT Solutions",
-    details: `Strong visual design skills and an eye for aesthetics.
-    Knowledge of design principles such as color theory, typography, and layout.Understanding of user experience (UX) design principles.`,
+    details: `Experienced Backend Developer proficient in WordPress, Laravel, and PHP, with a track record of developing and maintaining robust web applications. Skilled in WordPress theme and plugin development, Laravel framework setup, routing, and database interactions. Possesses a strong understanding of PHP syntax, control structures, and security best practices. Collaborates effectively with cross-functional teams to ensure seamless integration and optimal performance of web solutions.`,
   },
   {
-    year: "Communication",
-    position: "Communication and Collaboration",
+    year: "Management",
+    position: " Time Management and Organization",
     compnayName: "Goldenmace IT Solutions",
-    details: `Strong communication skills to understand client requirements and translate them into design concepts.Ability to collaborate effectively with other team members, such as developers and project managers.`,
+    details: `Ability to manage multiple projects and meet deadlines.
+    Strong organizational skills to maintain backend assets, files, and project documentation in a structured manner. Attention to detail to ensure precision and consistency in backend deliverables.`,
   },
 ];
 
