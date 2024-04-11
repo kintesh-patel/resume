@@ -5,7 +5,7 @@ import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
 import cv from "../../assets/img/kintesh-cv.pdf";
-import heroImgMobile from "../../assets/img/hero/img-mobile.png";
+import heroImgMobile from "../../assets/img/hero/kp-responsive.png";
 
 const index = () => {
   return (
