@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import lightImage from "../../assets/img/sun.png";
 
 const SwitchDark = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   const handleLabelClick = () => {
     if (isDark) {
