@@ -31,7 +31,7 @@ const Modal = ({ modalId, setGetModal }) => {
 
                       <div className="col-12  mb-2">
                         <i className="fa fa-code pr-2"></i>
-                        Language :{" "}
+                        Language | Framework :{" "}
                         <span className="ft-wt-600 uppercase">
                           {details.language}
                         </span>
@@ -48,6 +48,20 @@ const Modal = ({ modalId, setGetModal }) => {
                           {details.preview}
                         </a>
                       </div>
+                      {details.detail_overview ? (
+                        <div className="col-12  mb-2">
+                          <i className="fa fa-external-link pr-2"></i>
+                          About :{" "}
+                          <a
+                            className="preview-link"
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            href={details.detail_overview}
+                          >
+                            {details.detail_overview}
+                          </a>
+                        </div>) : ''
+                      }
                     </div>
                   );
                 })}

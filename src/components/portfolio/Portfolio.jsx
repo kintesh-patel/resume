@@ -19,8 +19,7 @@ const Portfolio = () => {
           <TabList className="portfolio-tab-list" >
             <Tab>ALL</Tab>
             <Tab>WordPress</Tab>
-            <Tab>HTML Theme</Tab>
-            <Tab>Dashboard</Tab>
+            <Tab>Apps</Tab>
           </TabList>
 
           <div className="container">
@@ -80,7 +79,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("HTML Website")).map(
+                {PortfolioData.filter((item) => item.tag.includes("Apps")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -106,33 +105,6 @@ const Portfolio = () => {
               </div>
             </TabPanel>
 
-            <TabPanel>
-              <div className="tab-container">
-                {PortfolioData.filter((item) =>
-                  item.tag.includes("Dashboard")
-                ).map((item) => {
-                  const { id, type, image, delayAnimation } = item;
-                  return (
-                    <div
-                      key={id}
-                      data-aos="fade"
-                      data-aos-delay={delayAnimation}
-                    >
-                      <div
-                        className="tab-content"
-                        onClick={() => handleModal(id)}
-                      >
-                        <img src={image} alt="portfolio project demo" />
-                        <h3>
-                          <span className="conent-title">{type}</span>
-                        </h3>
-                      </div>
-                      {/* {getModal && <Modal props={modalId} />} */}
-                    </div>
-                  );
-                })}
-              </div>
-            </TabPanel>
           </div>
         </Tabs>
       </div>

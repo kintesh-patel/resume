@@ -9,11 +9,11 @@ import heroImg7 from "../../assets/img/hero/wordpress.png";
 import heroImg8 from "../../assets/img/hero/laravel.png";
 
 const skillsContent = [
-  { skillClass: "p89", skillPercent: "89", skillName: "HTML", skillimg: heroImg1 },
-  { skillClass: "p50", skillPercent: "50", skillName: "CSS", skillimg: heroImg2 },
   { skillClass: "p95", skillPercent: "95", skillName: "WordPress", skillimg: heroImg7 },
   { skillClass: "p95", skillPercent: "95", skillName: "PHP", skillimg: heroImg3 },
   { skillClass: "p50", skillPercent: "50", skillName: "laravel", skillimg: heroImg8 },
+  { skillClass: "p89", skillPercent: "89", skillName: "HTML", skillimg: heroImg1 },
+  { skillClass: "p50", skillPercent: "50", skillName: "CSS", skillimg: heroImg2 },
   { skillClass: "p50", skillPercent: "50", skillName: "bootstrap", skillimg: heroImg4 },
   { skillClass: "p85", skillPercent: "80", skillName: "JAVASCRIPT", skillimg: heroImg6 },
   { skillClass: "p85", skillPercent: "80", skillName: "JQUERY", skillimg: heroImg5 },
