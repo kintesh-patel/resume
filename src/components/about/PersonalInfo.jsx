@@ -7,7 +7,7 @@ const personalInfoContent = [
   { meta: "Nationality", metaInfo: "Indian" },
   { meta: "Marital status", metaInfo: "Married" },
   { meta: "Address", metaInfo: "Milton Keynes" },
-  { meta: "phone", metaInfo: "+44 7405318814" },
+  { meta: "phone", metaInfo: "+44 7555206900" },
   { meta: "Email", metaInfo: "kintesh18494@gmail.com" },
   { meta: "Education", metaInfo: "Master of Computer Applications (MCA)" },
   // { meta: "language", metaInfo: "English,Hindi,Gujarati" },
