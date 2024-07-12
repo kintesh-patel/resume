@@ -25,8 +25,8 @@ import Image24 from "../../assets/img/portfolio/app-project-01.jpg";
 import Image25 from "../../assets/img/portfolio/app-project-02.jpg";
 import Image26 from "../../assets/img/portfolio/app-project-03.jpg";
 import Image27 from "../../assets/img/portfolio/app-project-04.jpg";
-import Image28 from "../../assets/img/portfolio/handyman.jpg";
-import Image29 from "../../assets/img/portfolio/frezka.jpg";
+import Image28 from "../../assets/img/portfolio/handyman.png";
+import Image29 from "../../assets/img/portfolio/frezka.png";
 import Image30 from "../../assets/img/portfolio/pawlly.png";
 
 
