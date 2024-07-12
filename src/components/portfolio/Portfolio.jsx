@@ -19,6 +19,7 @@ const Portfolio = () => {
           <TabList className="portfolio-tab-list" >
             <Tab>ALL</Tab>
             <Tab>WordPress</Tab>
+            <Tab>Laravel</Tab>
             <Tab>Apps</Tab>
           </TabList>
 
@@ -76,7 +77,33 @@ const Portfolio = () => {
                 )}
               </div>
             </TabPanel>
-
+            <TabPanel>
+              <div className="tab-container">
+                {PortfolioData.filter((item) => item.tag.includes("Laravel")).map(
+                  (item) => {
+                    const { id, type, image, delayAnimation } = item;
+                    return (
+                      <div
+                        key={id}
+                        data-aos="fade"
+                        data-aos-delay={delayAnimation}
+                      >
+                        <div
+                          className="tab-content"
+                          onClick={() => handleModal(id)}
+                        >
+                          <img src={image} alt="portfolio project demo" />
+                          <h3>
+                            <span className="conent-title">{type}</span>
+                          </h3>
+                        </div>
+                        {/* {getModal && <Modal props={modalId} />} */}
+                      </div>
+                    );
+                  }
+                )}
+              </div>
+            </TabPanel>
             <TabPanel>
               <div className="tab-container">
                 {PortfolioData.filter((item) => item.tag.includes("Apps")).map(

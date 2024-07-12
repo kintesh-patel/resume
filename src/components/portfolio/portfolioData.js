@@ -25,6 +25,9 @@ import Image24 from "../../assets/img/portfolio/app-project-01.jpg";
 import Image25 from "../../assets/img/portfolio/app-project-02.jpg";
 import Image26 from "../../assets/img/portfolio/app-project-03.jpg";
 import Image27 from "../../assets/img/portfolio/app-project-04.jpg";
+import Image28 from "../../assets/img/portfolio/handyman.jpg";
+import Image29 from "../../assets/img/portfolio/frezka.jpg";
+import Image30 from "../../assets/img/portfolio/pawlly.png";
 
 
 const PortfolioData = [
@@ -436,6 +439,51 @@ const PortfolioData = [
       },
     ],
   },
+  {
+    id: 36,
+    type: "Laravel",
+    image: Image28,
+    tag: ["Laravel"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Handyman - On-Demand Home Service",
+        language: "HTML, CSS, Javascript, PHP, Laravel",
+        preview: "https://handyman.iqonic.design/",
+        link: "https://handyman.iqonic.design/",
+      },
+    ],
+  },
+  {
+    id: 37,
+    type: "Laravel",
+    image: Image29,
+    tag: ["Laravel"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Frezka - Software for Salons and Spa Businesses",
+        language: "HTML, CSS, Javascript, PHP, Laravel",
+        preview: "https://frezka.iqonic.design/",
+        link: "https://frezka.iqonic.design/",
+      },
+    ],
+  },
+  {
+    id: 38,
+    type: "Laravel",
+    image: Image30,
+    tag: ["Laravel"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Pawlly - Pet Care Business",
+        language: "HTML, CSS, Javascript, PHP, Laravel",
+        preview: "https://pawlly.iqonic.design/",
+        link: "https://pawlly.iqonic.design/",
+      },
+    ],
+  }
 
 ];
 
