@@ -35,7 +35,7 @@ const PortfolioData = [
     id: 0,
     type: "WordPress",
     image: Image0,
-    tag: ["WordPress"],
+    tag: ["WordPress", "e-commerce"],
     delayAnimation: "0",
     modalDetails: [
       {
@@ -80,7 +80,7 @@ const PortfolioData = [
     id: 3,
     type: "WordPress",
     image: Image3,
-    tag: ["WordPress"],
+    tag: ["WordPress", "e-commerce"],
     delayAnimation: "200",
     modalDetails: [
       {
@@ -231,7 +231,7 @@ const PortfolioData = [
     id: 14,
     type: "WordPress",
     image: Image14,
-    tag: ["WordPress"],
+    tag: ["WordPress", "e-commerce"],
     delayAnimation: "100",
     modalDetails: [
       {
@@ -389,7 +389,7 @@ const PortfolioData = [
         language: "Flutter, WordPress, PHP",
         preview: "https://wordpress.iqonic.design/product/wp/socialv",
         link: "https://wordpress.iqonic.design/product/wp/socialv",
-        detail_overview:"https://codecanyon.net/item/socialv-social-network-flutter-app-with-buddypress/39169107"
+        detail_overview: "https://codecanyon.net/item/socialv-social-network-flutter-app-with-buddypress/39169107"
       },
     ],
   },
@@ -405,7 +405,7 @@ const PortfolioData = [
         language: "Flutter, WordPress, PHP",
         preview: "https://wordpress.iqonic.design/product/wp/streamit/",
         link: "https://wordpress.iqonic.design/product/wp/streamit/",
-        detail_overview:"https://codecanyon.net/item/streamit-flutter-video-streaming-ui-kit/28533546"
+        detail_overview: "https://codecanyon.net/item/streamit-flutter-video-streaming-ui-kit/28533546"
       },
     ],
   },
