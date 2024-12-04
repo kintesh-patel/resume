@@ -95,7 +95,7 @@ const Portfolio = () => {
                         >
                           <img src={image} alt="portfolio project demo" />
                           <h3>
-                            <span className="conent-title">E-commerce(WP)</span>
+                            <span className="conent-title" data-type={type}>E-commerce(WP)</span>
                           </h3>
                         </div>
                         {/* {getModal && <Modal props={modalId} />} */}
